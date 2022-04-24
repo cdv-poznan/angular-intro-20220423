@@ -8,6 +8,7 @@ import {CounterComponent} from './counter/counter.component';
 import {HelloComponent} from './hello/hello.component';
 import {HighlightDirective} from './highlight.directive';
 import {ReversePipe} from './reverse.pipe';
+import {SortPipe} from './sort.pipe';
 import {TimerComponent} from './timer/timer.component';
 import {TodoComponent} from './todos/todo/todo.component';
 import {TodosComponent} from './todos/todos.component';
@@ -24,6 +25,7 @@ import {UsersComponent} from './users/users.component';
     UsersComponent,
     HighlightDirective,
     ReversePipe,
+    SortPipe,
   ],
   imports: [
     BrowserModule,
